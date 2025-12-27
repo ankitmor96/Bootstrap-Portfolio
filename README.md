@@ -3,6 +3,8 @@
 
 github(url):https://github.com/ankitmor96/Bootstrap-Portfolio
 
+netlify(url):https://lustrous-banoffee-8f8920.netlify.app
+
 🌐 AI WEB-TECH – Personal Portfolio Website
 
 A modern, responsive personal portfolio website built using HTML, CSS, Bootstrap, and JavaScript.
