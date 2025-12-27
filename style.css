@@ -1,0 +1,75 @@
+:root {
+    --bg-primary: #0b0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.993);
+    color: white;
+}
+
+.navbar {
+    border-radius: 20px;
+   box-shadow: rgba(3, 199, 3, 0.09) 0px 2px 1px, rgba(5, 184, 14, 0.09) 0px 4px 2px, rgba(34, 197, 2, 0.09) 0px 8px 4px, rgba(9, 194, 3, 0.09) 0px 16px 8px, rgba(19, 197, 3, 0.09) 0px 32px 16px;
+}
+.nav-item:hover {
+    background-color: aqua;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.col-md-6 img{
+    height: 50vh;
+    width:auto ;
+    box-shadow: rgba(3, 179, 17, 0.3) 0px 19px 38px, rgba(2, 175, 2, 0.22) 0px 15px 12px;
+}
+
+.col-md-6{
+    margin-top: 20vh;
+}
+.m-3 i{
+    font-size: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+.icon i{
+    font-size: 3vh;
+    color: white;
+    border-radius: 50px;
+    box-shadow: rgba(10, 219, 3, 0.1) 0px 4px 16px, rgba(2, 189, 2, 0.1) 0px 8px 24px, rgba(10, 202, 3, 0.1) 0px 16px 56px;
+}
+.icon i:hover{
+    color: aqua;
+    transform: scale(1.2);
+    transition: all 0.3s;
+   font-size: 3vh;
+}
+.btn-primary {
+    background-color: var(--bg-primary);
+    border:none;
+}
+.card{
+    background-color: black;
+    color: white;
+    box-shadow: rgba(3, 179, 17, 0.3) 0px 19px 38px, rgba(2, 175, 2, 0.22) 0px 15px 12px;
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: all 0.3s;
+}
+.col-md-6- img{
+    border-radius: 20px;
+    height: 60vh;
+    box-shadow: rgba(3, 179, 17, 0.3) 0px 19px 38px, rgba(2, 175, 2, 0.22) 0px 15px 12px;
+}
+.col-md-3 img{
+    height: 25vh;
+    width: auto;
+}
+.col-md-5 img{
+    height: 40vh;
+}
